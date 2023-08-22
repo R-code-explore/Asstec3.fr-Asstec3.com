@@ -1,0 +1,22 @@
+{
+  "name": "asstec3",
+  "version": "1.0.0",
+  "description": "- Computers and office automation\r - Copiers for professionals\r - Photocopiers for professionals\r - Printers\r - Development and implementation of a server infrastructure\r - Development and implementation of adapted monitoring solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-code-explore/asstec3.fr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R-code-explore/asstec3.fr/issues"
+  },
+  "homepage": "https://github.com/R-code-explore/asstec3.fr#readme",
+  "dependencies": {
+    "react-scroll": "^1.8.9"
+  }
+}
