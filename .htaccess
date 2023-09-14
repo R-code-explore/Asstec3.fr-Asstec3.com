@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://asstec3.fr/$1 [R=301,L]
+
+RewriteRule ^contact$ https://asstec3.fr/redirect.php [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.asstec3\.fr$ [NC]
+RewriteRule ^contact$ https://asstec3.fr/redirect.php [R=301,L]
+RewriteRule ^contact/$ https://asstec3.fr/redirect.php [R=301,L]
+
+# Redirection de "https://www.asstec3.fr/informatique.php/" vers "https://www.asstec3.fr/informatique.php"
+RewriteRule ^informatique\.php/$ https://www.asstec3.fr/informatique.php [R=301,L]
+
+# Redirection de "https://www.asstec3.fr/infogerance/" vers "https://www.asstec3.fr/informatique.php#infrastructure"
+RewriteRule ^infogerance/$ https://www.asstec3.fr/redirect_info.php [R=301,L]
+
+RewriteRule ^impression/$ https://www.asstec3.fr/bureautique.php [R=301,L]
+
